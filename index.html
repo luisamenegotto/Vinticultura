@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu titulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Informações sobre a Vinticultura</h1>
+        <p> Conteudo do site- Primeiro conteudo</p>
+     </header>
+    <main>
+        <img src="Vinticultura.png" alt="Um homem sorridente de meia-idade caminha entre as fileiras de um vinhedo ensolarado durante o pôr do sol, carregando uma caixa cheia de uvas escuras enquanto toca em um cacho na videira. Ele tem pele clara, cabelos e barba grisalhos, e veste uma camisa xadrez com as mangas dobradas, calça jeans e um avental marrom. Ao fundo, a paisagem é composta por colinas onduladas cobertas por videiras verdes carregadas de frutos, com uma casa rústica de pedra ao longe e uma luz dourada que ilumina todo o cenário sob um céu limpo.">
+        
+        <div>
+    <h2> Meu primeiro post</h2>
+    <p class="autor"> Por: Luisa Petri Menegotto</p>
+        <p> Meu primeiro post sobre vinticultura</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Por: Luisa Petri Menegotto.</p>
+    </footer>
+
+</body>
+<button>🫶<span>0</span></button>
+
+<script>
+
+
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
+
+
+</html>
