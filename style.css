@@ -30,4 +30,7 @@ footer {
 .autor{
     font-weight: bold;
 }
-
+img{
+    height: 10;
+    width: 10;
+}
